@@ -20,10 +20,17 @@ public class CreateCharacterDTO {
     // Usar @NotNull para campos obligatorios
     // Usar @Size para limitar longitud de texto
 
+    @NotNull
+    @NotBlank
+    @Size(max = 100)
     private String name;
 
+    @NotNull
+    @NotBlank
+    @Size(max = 200)
     private String occupation;
 
+    @NotNull
     private CharacterStatus status;
 
     private String imageUrl;
