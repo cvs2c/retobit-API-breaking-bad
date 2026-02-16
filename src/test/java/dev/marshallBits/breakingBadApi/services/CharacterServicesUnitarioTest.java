@@ -19,7 +19,7 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
-public class CharacterServicesMock {
+public class CharacterServicesUnitarioTest {
 
     //Mock significa falso o imitación
     //Se creará una imitación del characterRepository
